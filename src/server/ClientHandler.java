@@ -6,6 +6,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
+/**
+ * @author Sanchit Monga
+ * @author Gnandeep Gottipati
+ *
+ * This class handles the clients ( users ) on the server side.
+ */
 class ClientHandler extends Thread implements Protocols {
     public Duplexer duplexer;
     private ArrayList<String> contacts;
@@ -23,6 +29,9 @@ class ClientHandler extends Thread implements Protocols {
         this.numberOfLoops=0;
     }
 
+    /**
+     * The Run method runs the client threads.
+     */
     @Override
     public void run() {
         /**

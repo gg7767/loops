@@ -4,6 +4,9 @@ package server;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+/**
+ *
+ */
 public class Game implements Runnable, Protocols {
     public static HashMap<Integer,ClientHandler> clients;
     public static HashMap<Integer,Loop> loops;

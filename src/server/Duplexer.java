@@ -9,6 +9,10 @@ import java.util.Scanner;
 
 
 /**
+ * @author Aahish Balimane
+ * @author Sanchit Monga
+ * @author Gnandeep Gottipati
+ * @author Mehul Sen
  * This class helps you to open the input and output streams and you can send data from server to client and vice versa
  */
 
